@@ -1,0 +1,356 @@
+body {
+    height: 100%;
+    margin: 0;
+    direction: ltr;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 3.5%;
+    width: 100%;
+}
+
+.nav-bar {
+    height: 5%;
+    width: 100%;
+    left: -100px;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.submenu {
+    background-color: black;
+    list-style-type: none;
+    display: none;
+    padding-left: 0px;
+}
+
+.header .submenu li {
+    float: none;
+}
+
+.header li:hover .submenu {
+    display: block;
+}
+
+.nav-bar li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.sea {
+    background-image: url("sea.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p#photo {
+    padding: 5px;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    text-align: center;
+    width: 10%;
+    position: relative;
+    top: -60px;
+    left: 1%;
+}
+
+#photo:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.header #search-box {
+    position: relative;
+    left: 94%;
+    top: -17px;
+}
+
+th {
+    height: 50px;
+}
+
+tr {
+    height: 40px;
+}
+
+.pricing table {
+    border-collapse: collapse;
+}
+
+.team {
+    background-color: white;
+}
+
+.team div img {
+    border-radius: 50%;
+    height: 70px;
+}
+
+.team h3, h5 {
+    text-align: center;
+    color: rgb(41, 41, 41);
+}
+
+.members {
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.team #johnny {
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+}
+
+.team #rebecca {
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 40%;
+}
+
+.team #jan {
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 60%;
+}
+
+.team #kai {
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 80%;
+}
+
+.caption {
+    display: block;
+}
+
+.work {
+    background-color: gray;
+    width: 100%;
+    height: 470px;
+}
+
+.work #text {
+    width: 250px;
+    height: 200px;
+}
+.work .flex {
+    padding: 20px;
+}
+
+.work #costomer1 {
+    position: relative;
+    width: 250px;
+    left: 25%;
+    top: -200px;
+}
+
+.work #description1 {
+    position: relative;
+    left: 0%;
+}
+
+.work table {
+    text-align: left;
+    padding-left: 0%;
+    width: 250px;
+    border: 0px;
+    background-color: white;
+}
+
+.work hr {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.work td {
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.work #costomer2 {
+    position: relative;
+    width: 250px;
+    left: 50%;
+    top: -590px;
+}
+
+.work #description2 {
+    position: relative;
+    left: 0%;
+}
+
+.work #costomer3 {
+    position: relative;
+    width: 250px;
+    left: 75%;
+    top: -980px;
+}
+
+.work #description3 {
+    position: relative;
+    left: 0%;
+}
+
+.work #plus {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    background-color: rgb(64, 163, 64);
+    color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 91%;
+    top: -968px;
+}
+
+
+.outer {
+    padding-left: 4%;
+    padding-right: 2%;
+}
+
+.inner1 {
+    width: 300px;
+    width: 350px;
+    border: 2px solid rgb(153, 153, 153);
+    position: relative;
+    left: 17%;
+    top: 0px;
+}
+
+.inner2 {
+    width: 300px;
+    width: 350px;
+    border: 2px solid rgb(153, 153, 153);
+    position: relative;
+    left: 129%;
+    top: -294px;
+}
+
+.inner3 {
+    width: 300px;
+    width: 350px;
+    border: 2px solid rgb(153, 153, 153);
+    position: relative;
+    left: 242%;
+    top: -592px;
+}
+
+.contact {
+    background-color: rgb(211, 211, 211);
+    position: relative;
+    top: -530px;
+
+}
+
+.contact #data {
+    padding: 3%;
+    height: 160px;
+}
+
+.form {
+    box-shadow: 0 0 10px black;
+    width: 770px;
+    height: 180px;
+    background-color: white;
+    position: relative;
+    left: 30%;
+    top: -180px;
+    padding: 3%;
+}
+
+.form .input {
+    border-style: solid;
+    border-color: rgb(73, 73, 73);
+    border-radius: 0px;
+    border-width: 1px;
+    width: 750px;
+    height: 20px;
+}
+
+iframe {
+    position: relative;
+    top: 200px;
+    left: -420px;
+    width: 1263px;
+}
+
+.footer {
+    width: 100%;
+    height: 300px;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 0px;
+    top: -87px;
+    padding-top: 2%;
+}
+
+.apps {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(128, 190, 128);
+}
+
+#facebook {
+    position: relative;
+    left: 40%;
+    top: 0px;
+}
+
+#twitter {
+    position: relative;
+    left: 44%;
+    top: -56px;
+}
+
+#google {
+    position: relative;
+    left: 48%;
+    top: -112px;
+}
+
+#instagram {
+    position: relative;
+    left: 52%;
+    top: -168px;
+}
+
+#linkedin {
+    position: relative;
+    left: 56%;
+    top: -224px;
+}
+
+.apps a:hover {
+    box-shadow: 0 0 5px white;
+}
